@@ -1,0 +1,50 @@
+@media screen and (max-width: 900px) {
+  body {
+    background-image: url(/images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .container {
+    margin: 0 auto;
+  }
+  .header {
+    padding: 2rem 0 6rem 0;
+    text-align: center;
+  }
+
+  .card-img {
+    display: inline;
+  }
+
+  .card-img img {
+    margin: 0 auto 8rem auto;
+    padding-left: 30px;
+    width: 100%;
+  }
+
+  .card-text {
+    text-align: center;
+    h1 {
+      margin: 0 auto;
+      margin-bottom: 2rem;
+    }
+    p {
+      max-width: 370px;
+      margin: 0 auto 2rem auto;
+    }
+  }
+
+  button {
+    margin-bottom: 5rem;
+    padding: 1rem 7rem;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    img {
+      margin: 1rem;
+    }
+  }
+}

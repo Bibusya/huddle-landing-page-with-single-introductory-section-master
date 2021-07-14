@@ -1,0 +1,16 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: white;
+}
+
+//Variables
+//Colors
+$violet: hsl(257, 40%, 49%);
+$soft-magenta: hsl(300, 69%, 71%);
+
+@import "general";
+@import "desktop";
+@import "mobile";
